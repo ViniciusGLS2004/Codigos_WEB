@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title> Iniciando java</title>
+    <script language="JavaScript" src="geral2.js"> </script>
+</head>
+
+<body onLoad="aler('Pagina carregada.')">
+    <script>
+        window.onbeforeunload = funcion() {
+            return "Deseja sair mesmo?";
+        };  
+    </script>
+    <p> Testando alguns eventos...</p>
+    <form>
+        <input type="button" 
+        value="Não aperte este botão!" 
+        onClick="aler('Clique o botão OK para formatar o HD.')">
+    </form>
+
+    <INPUT type="button" value= "Formatar o
+HD" onClick="confirm('Tem certeza?')">
+</body>
+
+
+
+</html>

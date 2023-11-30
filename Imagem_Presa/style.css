@@ -1,0 +1,18 @@
+body {
+    height: 200vh;
+    width: 100vw;
+    background-image: url(General_Sir_Bernard_Montgomery_in_England\,_1943.jpg);
+    background-size: 30%;
+    height: 80vh;
+    float: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.parte1 {
+    float: left;
+  text-align: left;
+  margin-left: 30%;
+  line-height: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+}

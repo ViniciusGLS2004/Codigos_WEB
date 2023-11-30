@@ -1,0 +1,58 @@
+body{
+    height: 120vh;
+    width: 100vw;
+}
+
+.header{
+    position: absolute;
+ text-align: center;
+ height: 18vh;
+ width: 100vw;
+background-color: aqua;
+}
+
+.menu{
+   
+    position: absolute;
+    height: 5vh;
+    width: 100vw;
+    top: 119px;
+    background-color: yellow;
+    display:inline;
+    text-align: center;
+   
+      
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(2, 4, 104);
+    padding: 20px;
+}
+
+.article {
+    position: absolute;
+    height: 65vh;
+    width: 65vw;
+    background-color: white;
+    top: 167px;
+}
+
+.aside {
+    position: absolute;
+    width: 35vw;
+    height: 65vh;
+    background-color: white;
+    left: 66%;
+    top: 167px;
+}
+
+.footer {
+    position: absolute;
+    height: 15vh;
+    width: 100vw;
+    background-color: aqua;
+    top: 680px;
+    display: grid;
+    place-items: center;
+}

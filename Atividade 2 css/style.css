@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.div1{
+    height: 65vh;
+    width: 65vw;
+    background-color: red;
+}
+
+.div2 {
+    position: absolute;
+    left: 30px;
+    bottom: 55%;
+    height: 25vh;
+    width: 62vw;
+    background-color: green;
+    display: grid;
+  place-items: center;
+}
+
+.div3 {
+    position: absolute;
+    left: 30px;
+    bottom: 25%;
+    height: 25vh;
+    width: 62vw;
+    background-color: green;
+    display: grid;
+  place-items: center;
+}
+
+.div4 {
+    position: absolute;
+    bottom: 20px;
+    height: 18vh;
+    width: 65vw;
+    background-color: gray;
+    display: grid;
+    place-items: center;
+}
+
+#pav{
+    position: absolute;
+    color: white;
+   
+}

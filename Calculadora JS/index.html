@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora no JS</title>
+    <script src="calculadora.js"></script>
+
+</head>
+
+<body>
+    <h1> Calculadora</h1>
+    <form name="formCal">
+        <label id="num1" for="numero1"> Numero 1: </label>
+        <input type="number" name="opcao1" id="numero1">
+        <br><br>
+        <label id="num2" for="numero2"> Numero 2: </label>
+        <input type="number" name="opcao2" id="numero2">
+        <br><br>
+        <label> Escolha a operação: </label>
+        <br>
+        <input type="button" value="Adição(+)" onclick="setOperacao('+')">
+        <input type="button" value="Subtração(-)" onclick="setOperacao('-')">
+        <input type="button" value="Multiplicação(*)" onclick="setOperacao('*')">
+        <input type="button" value="Divisão(/)" onclick="setOperacao('/')">
+        <br><br>
+        <input type="button" value="Calcular" onclick="calcular()">
+        <input type="reset" value="Limpar">
+        <br><br>
+        <input type="text" name="resultado" placeholder="Resultado" disabled size="20">
+    </form>
+</body>
+
+</html>

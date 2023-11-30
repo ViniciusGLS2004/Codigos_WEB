@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.div1 {
+    height: 20vh;
+    width: 10vw;
+    background-color: blue;
+}
+
+.div2 {
+    height: 20vh;
+    width: 10vw;
+    background-color: red;
+}
+
+.div3 {
+    height: 20vh;
+    width: 10vw;
+    background-color: green;
+}

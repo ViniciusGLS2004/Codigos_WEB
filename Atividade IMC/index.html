@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora IMC</title>
+    <script src="calculo.js"></script>
+</head>
+
+<body>
+    <h1>IMC Calculadora</h1>
+    <form name="FormIMC">
+        <input type="number" name="peso" placeholder="Peso" size="20">
+        <br><br>
+        <input type="number" name="altura" placeholder="Altura" size="20">
+        <br><br>
+        <input type="button" value="Calcular" onclick="calculaIMC()">
+        <input type="reset" value="Limpar" onclick="resetimage()">
+        <br><br>
+        <input type="text" name="resultado" placeholder="Resultado" disabled size="20">
+        <br><br>
+    </form>
+    <img src="imc.png" alt="imgIMC" id="imc">
+</body>
+
+</html>
